@@ -1,0 +1,19 @@
+{
+    "name": "andre/crud-rest-api",
+    "description": "Aplicação restFull que lista os clientes do banco de dados mysql, assim como cria novos clientes, edita e apaga clientes da lista.",
+    "require": {
+        "coffeecode/datalayer": "^1.1"
+    },
+    "authors": [
+        {
+            "name": "andrer54",
+            "email": "andrer54@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source"
+        }
+    }
+}
