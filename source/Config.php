@@ -5,8 +5,8 @@ define("DATA_LAYER_CONFIG", [
     "host" => "localhost",
     "port" => "3306",
     "dbname" => "crud-teste",
-    "username" => "andre",
-    "passwd" => "12345",
+    "username" => "",
+    "passwd" => "",
     "options" => [
         PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8",
         PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
